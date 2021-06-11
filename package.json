@@ -1,8 +1,8 @@
 {
   "name": "usetoc",
   "version": "0.1.0",
-  "description": "ReactJs custom-hook to generate data for table-of-content.",
-  "repository": "",
+  "description": "ReactJs custom-hook for generating table-of-content data.",
+  "repository": "https://github.com/webiya/useToc.git",
   "author": "or-yam, <oryamn@webiya.co.il>",
   "license": "MIT",
   "main": "index.js",
