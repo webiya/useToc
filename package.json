@@ -1,0 +1,18 @@
+{
+  "name": "usetoc",
+  "version": "0.1.0",
+  "description": "ReactJs custom-hook to generate data for table-of-content.",
+  "repository": "",
+  "author": "or-yam, <oryamn@webiya.co.il>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-toc",
+    "toc",
+    "useToc",
+    "table of content"
+  ]
+}
