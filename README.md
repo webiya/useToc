@@ -1,40 +1,39 @@
-# list-to-zip
+# useToc
 
-Create and downloads a zip file from list of files urls.
+Create easy to use data for building table of content for you react component.
 
 ## Installation
 
 ```sh
-npm install list-to-zip
+npm install ---
 ```
 
 or
 
 ```sh
-yarn add list-to-zip
+yarn add ---
 ```
 
 ## Usage Example
 
 ```javascript
-import listZip from 'list-to-zip';
+import Toc from ".components/Toc";
+import useToc from '----';
 
-const myList = [
-  'https://pngimg.com/uploads/raccoon/raccoon_PNG16972.png',
-  'https://pngimg.com/uploads/badger/badger_PNG45.png',
-  'http://www.pngall.com/wp-content/uploads/2016/06/Killer-Whale.png'
-];
+export default function App() {
+  const toc = usesToc(".container h3");
 
-listZip('animal-pics', 'animal', myList);
-// will download a zip file named animals-pics.zip that contain files named 0-animal.png, 1-animal.png, 2-animal.png
+  return (
+    <div className="App">
+      <Toc tocData={toc} />
+      // ...
+  )
+}
+
 ```
 
 ---
 
 ### Dependencies
-
-- file-saver
-- jszip
-- jszip-utils
 
 ---
