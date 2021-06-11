@@ -14,5 +14,8 @@
     "toc",
     "useToc",
     "table of content"
-  ]
+  ],
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }
