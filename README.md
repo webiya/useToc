@@ -5,13 +5,13 @@ Create easy to use data for building table of content for you react component.
 ## Installation
 
 ```sh
-npm install ---
+npm i usestoc
 ```
 
 or
 
 ```sh
-yarn add ---
+yarn add usestoc
 ```
 
 ## Usage Example
