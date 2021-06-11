@@ -18,7 +18,7 @@ yarn add usestoc
 
 ```javascript
 import Toc from ".components/Toc";
-import useToc from '----';
+import useToc from 'usetoc';
 
 export default function App() {
   const toc = usesToc(".container h3");
@@ -34,6 +34,8 @@ export default function App() {
 
 ---
 
-### Dependencies
+### Demo
+
+[Sand Box](https://codesandbox.io/s/cold-rgb-65f06?file=/src/Toc.js)
 
 ---
