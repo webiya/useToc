@@ -1,6 +1,6 @@
 {
-  "name": "usestoc",
-  "version": "0.1.2",
+  "name": "use-toc",
+  "version": "0.1.0",
   "description": "ReactJs custom-hook for generating table-of-content data.",
   "repository": "https://github.com/webiya/useToc.git",
   "author": "or-yam, <oryamn@webiya.co.il>",
@@ -13,6 +13,7 @@
     "react-toc",
     "toc",
     "useToc",
+    "use-toc",
     "table of content"
   ],
   "dependencies": {
